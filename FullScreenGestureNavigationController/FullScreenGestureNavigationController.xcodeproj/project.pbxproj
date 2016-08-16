@@ -1,0 +1,535 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		57297A011D630B25001266C4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 57297A001D630B25001266C4 /* main.m */; };
+		57297A041D630B25001266C4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 57297A031D630B25001266C4 /* AppDelegate.m */; };
+		57297A071D630B25001266C4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57297A061D630B25001266C4 /* ViewController.m */; };
+		57297A0A1D630B25001266C4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57297A081D630B25001266C4 /* Main.storyboard */; };
+		57297A0C1D630B25001266C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57297A0B1D630B25001266C4 /* Assets.xcassets */; };
+		57297A0F1D630B25001266C4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57297A0D1D630B25001266C4 /* LaunchScreen.storyboard */; };
+		57297A1A1D630B25001266C4 /* FullScreenGestureNavigationControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 57297A191D630B25001266C4 /* FullScreenGestureNavigationControllerTests.m */; };
+		57297A251D630B25001266C4 /* FullScreenGestureNavigationControllerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 57297A241D630B25001266C4 /* FullScreenGestureNavigationControllerUITests.m */; };
+		57297A351D630B65001266C4 /* YTNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57297A341D630B65001266C4 /* YTNavigationController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		57297A161D630B25001266C4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 572979F41D630B25001266C4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 572979FB1D630B25001266C4;
+			remoteInfo = FullScreenGestureNavigationController;
+		};
+		57297A211D630B25001266C4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 572979F41D630B25001266C4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 572979FB1D630B25001266C4;
+			remoteInfo = FullScreenGestureNavigationController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		572979FC1D630B25001266C4 /* FullScreenGestureNavigationController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FullScreenGestureNavigationController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		57297A001D630B25001266C4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		57297A021D630B25001266C4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		57297A031D630B25001266C4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		57297A051D630B25001266C4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		57297A061D630B25001266C4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		57297A091D630B25001266C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		57297A0B1D630B25001266C4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		57297A0E1D630B25001266C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		57297A101D630B25001266C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57297A151D630B25001266C4 /* FullScreenGestureNavigationControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FullScreenGestureNavigationControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		57297A191D630B25001266C4 /* FullScreenGestureNavigationControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FullScreenGestureNavigationControllerTests.m; sourceTree = "<group>"; };
+		57297A1B1D630B25001266C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57297A201D630B25001266C4 /* FullScreenGestureNavigationControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FullScreenGestureNavigationControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		57297A241D630B25001266C4 /* FullScreenGestureNavigationControllerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FullScreenGestureNavigationControllerUITests.m; sourceTree = "<group>"; };
+		57297A261D630B25001266C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57297A331D630B65001266C4 /* YTNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTNavigationController.h; sourceTree = "<group>"; };
+		57297A341D630B65001266C4 /* YTNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTNavigationController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		572979F91D630B25001266C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57297A121D630B25001266C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57297A1D1D630B25001266C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		572979F31D630B25001266C4 = {
+			isa = PBXGroup;
+			children = (
+				572979FE1D630B25001266C4 /* FullScreenGestureNavigationController */,
+				57297A181D630B25001266C4 /* FullScreenGestureNavigationControllerTests */,
+				57297A231D630B25001266C4 /* FullScreenGestureNavigationControllerUITests */,
+				572979FD1D630B25001266C4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		572979FD1D630B25001266C4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				572979FC1D630B25001266C4 /* FullScreenGestureNavigationController.app */,
+				57297A151D630B25001266C4 /* FullScreenGestureNavigationControllerTests.xctest */,
+				57297A201D630B25001266C4 /* FullScreenGestureNavigationControllerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		572979FE1D630B25001266C4 /* FullScreenGestureNavigationController */ = {
+			isa = PBXGroup;
+			children = (
+				57297A321D630B4B001266C4 /* GesturePopNavigation */,
+				57297A021D630B25001266C4 /* AppDelegate.h */,
+				57297A031D630B25001266C4 /* AppDelegate.m */,
+				57297A051D630B25001266C4 /* ViewController.h */,
+				57297A061D630B25001266C4 /* ViewController.m */,
+				57297A081D630B25001266C4 /* Main.storyboard */,
+				57297A0B1D630B25001266C4 /* Assets.xcassets */,
+				57297A0D1D630B25001266C4 /* LaunchScreen.storyboard */,
+				57297A101D630B25001266C4 /* Info.plist */,
+				572979FF1D630B25001266C4 /* Supporting Files */,
+			);
+			path = FullScreenGestureNavigationController;
+			sourceTree = "<group>";
+		};
+		572979FF1D630B25001266C4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				57297A001D630B25001266C4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		57297A181D630B25001266C4 /* FullScreenGestureNavigationControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				57297A191D630B25001266C4 /* FullScreenGestureNavigationControllerTests.m */,
+				57297A1B1D630B25001266C4 /* Info.plist */,
+			);
+			path = FullScreenGestureNavigationControllerTests;
+			sourceTree = "<group>";
+		};
+		57297A231D630B25001266C4 /* FullScreenGestureNavigationControllerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				57297A241D630B25001266C4 /* FullScreenGestureNavigationControllerUITests.m */,
+				57297A261D630B25001266C4 /* Info.plist */,
+			);
+			path = FullScreenGestureNavigationControllerUITests;
+			sourceTree = "<group>";
+		};
+		57297A321D630B4B001266C4 /* GesturePopNavigation */ = {
+			isa = PBXGroup;
+			children = (
+				57297A331D630B65001266C4 /* YTNavigationController.h */,
+				57297A341D630B65001266C4 /* YTNavigationController.m */,
+			);
+			path = GesturePopNavigation;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		572979FB1D630B25001266C4 /* FullScreenGestureNavigationController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57297A291D630B25001266C4 /* Build configuration list for PBXNativeTarget "FullScreenGestureNavigationController" */;
+			buildPhases = (
+				572979F81D630B25001266C4 /* Sources */,
+				572979F91D630B25001266C4 /* Frameworks */,
+				572979FA1D630B25001266C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FullScreenGestureNavigationController;
+			productName = FullScreenGestureNavigationController;
+			productReference = 572979FC1D630B25001266C4 /* FullScreenGestureNavigationController.app */;
+			productType = "com.apple.product-type.application";
+		};
+		57297A141D630B25001266C4 /* FullScreenGestureNavigationControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57297A2C1D630B25001266C4 /* Build configuration list for PBXNativeTarget "FullScreenGestureNavigationControllerTests" */;
+			buildPhases = (
+				57297A111D630B25001266C4 /* Sources */,
+				57297A121D630B25001266C4 /* Frameworks */,
+				57297A131D630B25001266C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				57297A171D630B25001266C4 /* PBXTargetDependency */,
+			);
+			name = FullScreenGestureNavigationControllerTests;
+			productName = FullScreenGestureNavigationControllerTests;
+			productReference = 57297A151D630B25001266C4 /* FullScreenGestureNavigationControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		57297A1F1D630B25001266C4 /* FullScreenGestureNavigationControllerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57297A2F1D630B25001266C4 /* Build configuration list for PBXNativeTarget "FullScreenGestureNavigationControllerUITests" */;
+			buildPhases = (
+				57297A1C1D630B25001266C4 /* Sources */,
+				57297A1D1D630B25001266C4 /* Frameworks */,
+				57297A1E1D630B25001266C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				57297A221D630B25001266C4 /* PBXTargetDependency */,
+			);
+			name = FullScreenGestureNavigationControllerUITests;
+			productName = FullScreenGestureNavigationControllerUITests;
+			productReference = 57297A201D630B25001266C4 /* FullScreenGestureNavigationControllerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		572979F41D630B25001266C4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Heaven;
+				TargetAttributes = {
+					572979FB1D630B25001266C4 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					57297A141D630B25001266C4 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 572979FB1D630B25001266C4;
+					};
+					57297A1F1D630B25001266C4 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 572979FB1D630B25001266C4;
+					};
+				};
+			};
+			buildConfigurationList = 572979F71D630B25001266C4 /* Build configuration list for PBXProject "FullScreenGestureNavigationController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 572979F31D630B25001266C4;
+			productRefGroup = 572979FD1D630B25001266C4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				572979FB1D630B25001266C4 /* FullScreenGestureNavigationController */,
+				57297A141D630B25001266C4 /* FullScreenGestureNavigationControllerTests */,
+				57297A1F1D630B25001266C4 /* FullScreenGestureNavigationControllerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		572979FA1D630B25001266C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57297A0F1D630B25001266C4 /* LaunchScreen.storyboard in Resources */,
+				57297A0C1D630B25001266C4 /* Assets.xcassets in Resources */,
+				57297A0A1D630B25001266C4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57297A131D630B25001266C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57297A1E1D630B25001266C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		572979F81D630B25001266C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57297A351D630B65001266C4 /* YTNavigationController.m in Sources */,
+				57297A071D630B25001266C4 /* ViewController.m in Sources */,
+				57297A041D630B25001266C4 /* AppDelegate.m in Sources */,
+				57297A011D630B25001266C4 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57297A111D630B25001266C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57297A1A1D630B25001266C4 /* FullScreenGestureNavigationControllerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57297A1C1D630B25001266C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57297A251D630B25001266C4 /* FullScreenGestureNavigationControllerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		57297A171D630B25001266C4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 572979FB1D630B25001266C4 /* FullScreenGestureNavigationController */;
+			targetProxy = 57297A161D630B25001266C4 /* PBXContainerItemProxy */;
+		};
+		57297A221D630B25001266C4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 572979FB1D630B25001266C4 /* FullScreenGestureNavigationController */;
+			targetProxy = 57297A211D630B25001266C4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		57297A081D630B25001266C4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57297A091D630B25001266C4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		57297A0D1D630B25001266C4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57297A0E1D630B25001266C4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		57297A271D630B25001266C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		57297A281D630B25001266C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		57297A2A1D630B25001266C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FullScreenGestureNavigationController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.heavenyoung.www.FullScreenGestureNavigationController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		57297A2B1D630B25001266C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FullScreenGestureNavigationController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.heavenyoung.www.FullScreenGestureNavigationController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		57297A2D1D630B25001266C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FullScreenGestureNavigationControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.heavenyoung.www.FullScreenGestureNavigationControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FullScreenGestureNavigationController.app/FullScreenGestureNavigationController";
+			};
+			name = Debug;
+		};
+		57297A2E1D630B25001266C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FullScreenGestureNavigationControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.heavenyoung.www.FullScreenGestureNavigationControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FullScreenGestureNavigationController.app/FullScreenGestureNavigationController";
+			};
+			name = Release;
+		};
+		57297A301D630B25001266C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FullScreenGestureNavigationControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.heavenyoung.www.FullScreenGestureNavigationControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FullScreenGestureNavigationController;
+			};
+			name = Debug;
+		};
+		57297A311D630B25001266C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FullScreenGestureNavigationControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.heavenyoung.www.FullScreenGestureNavigationControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FullScreenGestureNavigationController;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		572979F71D630B25001266C4 /* Build configuration list for PBXProject "FullScreenGestureNavigationController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57297A271D630B25001266C4 /* Debug */,
+				57297A281D630B25001266C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57297A291D630B25001266C4 /* Build configuration list for PBXNativeTarget "FullScreenGestureNavigationController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57297A2A1D630B25001266C4 /* Debug */,
+				57297A2B1D630B25001266C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		57297A2C1D630B25001266C4 /* Build configuration list for PBXNativeTarget "FullScreenGestureNavigationControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57297A2D1D630B25001266C4 /* Debug */,
+				57297A2E1D630B25001266C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		57297A2F1D630B25001266C4 /* Build configuration list for PBXNativeTarget "FullScreenGestureNavigationControllerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57297A301D630B25001266C4 /* Debug */,
+				57297A311D630B25001266C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 572979F41D630B25001266C4 /* Project object */;
+}
